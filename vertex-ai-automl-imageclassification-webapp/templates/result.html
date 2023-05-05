@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classification Result</title>
+</head>
+<body>
+    <h1>Image Classification Result</h1>
+    <h2>Model Overview</h2>
+    <ul>
+        <li> Model ID
+                <li>
+                    {{model_id}}
+                </li>
+        </li>
+        <li> Model Name
+            <li>
+                {{model_name}}
+            </li>
+        </li>
+        <li> Model Version
+            <li>
+                {{model_version}}
+            </li>
+        </li>
+    </ul>
+    <table>
+        <tr>
+            <th>DisplayName</th>
+            <th>Confidence</th>
+        </tr>
+        <tr>
+            <td> {{ displayname }} </td>
+            <td> {{ confidence }} </td>
+        </tr>
+    </table>
+</body>
+</html>

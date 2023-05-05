@@ -1,0 +1,6 @@
+gunicorn
+flask
+requests
+google-auth
+google-cloud-aiplatform
+protobuf
